@@ -18,18 +18,12 @@ class Key {
 }
 
 class Person {
-  /**
-   * The key of the person
-   */
-  private key: Key;
-
-  /**
-   * The key of the person
-   * @param key
-   */
-  constructor(key: Key) {
-    this.key = key;
-  }
+  constructor(
+    /**
+     * The key of the person
+     */
+    private key: Key
+  ) {}
 
   /**
    * Returns the key of the person
